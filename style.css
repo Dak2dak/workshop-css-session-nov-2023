@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 30px 50px;
+  /* background-color: #06325f; */
+}
+
+header {
+  margin-bottom: 30px;
+  border: solid;
+}
+
+h1,
+h2 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  /* border: solid; */
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-top: 10px;
+  color: red;
+  letter-spacing: 15px;
+}
+
+.test {
+  text-align: center;
+  margin: 50px 0 30px 0;
+}
+
+.test p {
+  display: inline-block;
+  width: 30%;
+  margin: 0 10px;
+  padding: 8px 0;
+  color: #fff;
+  background-color: #000;
+  border-radius: 12px;
+  font-family: "Roboto", sans-serif;
+}
+
+#sec-1 {
+  margin: 20px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.content {
+  float: left;
+  width: 50%;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+
+.box1 {
+  margin-top: 8%;
+  vertical-align: middle;
+}
+
+.box1 p {
+  text-align: justify;
+}
+
+.top-box {
+  margin: 20px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.box4 {
+  margin-top: 10%;
+}
+
+.icon-box {
+  text-align: center;
+  font-size: 50px;
+}
+
+.icon-box i {
+  margin: 10px 25px;
+}
+
+
+
+
+table.content {
+    border-collapse: collapse;
+}
+
+table.content th,
+table.content td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table.content th {
+  background-color: #f2f2f2;
+}
+
+
+
+form.content {
+  /* max-width: 300px; */
+  margin: 0 auto;
+  /* border: solid; */
+}
+
+label {
+  display: block;
+  /* margin-bottom: 2px; */
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #ddd;
+}
+
+footer {
+  margin: 30px 0;
+  
+}
